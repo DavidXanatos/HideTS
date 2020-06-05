@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="InjDll">
+      <UniqueIdentifier>{0a278177-59d6-4902-80b9-ac0e91dad1e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Inject.cpp">
+    <ClCompile Include="Injector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\injdll32.c">
+      <Filter>InjDll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\injdll32_32.c">
+      <Filter>InjDll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\injdll32_64.c">
+      <Filter>InjDll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\injdll64.c">
+      <Filter>InjDll</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\injdll.h">
+      <Filter>InjDll</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
